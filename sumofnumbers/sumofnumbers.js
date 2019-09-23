@@ -1,9 +1,9 @@
-const data = [1,2,3,4,5]
+const data = [1, 2, 3, 4, 5]
 
 const sumWhile = list => {
   let sum = 0;
   let i = 0;
-  while (i < list.length){
+  while (i < list.length) {
     sum += list[i]
     i++
   }
@@ -12,7 +12,7 @@ const sumWhile = list => {
 
 const sumFor = list => {
   let sum = 0;
-  for(let i = 0; i < list.length; i++){
+  for (let i = 0; i < list.length; i++) {
     sum += list[i]
   }
   return sum
